@@ -1,0 +1,12 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+            "php": ">=7.2",
+            "donseo/seopack": "*"
+        },
+        	"autoload": {
+		"psr-4": {
+		  "Donseo\\seopack\\": "src/"
+		}
+	  }
+}
