@@ -1,12 +1,20 @@
-{
-  "minimum-stability": "dev",
-  "require": {
-            "php": ">=7.2",
-            "donseo/seopack": "*"
+   {
+        "name": "donseo/multiexception",
+        "description": "My first Composer project",
+		"license": "GPL-3.0-only",
+        "authors": [
+            {
+                "name": "Dmitry Larin",
+                "email": "x-win32api@yandex.ru"
+            }
+        ],
+        "require": {
+            "php": ">=7.2"
         },
         	"autoload": {
 		"psr-4": {
-		  "Donseo\\seopack\\": "src/"
+		  "Donseo\\MultiException\\": "src/"
 		}
 	  }
 }
+

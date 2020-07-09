@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Donseo\seopack;
+namespace Donseo\MultiException;
 
 
-class ComposerStart
+class MultiException
 {
 
     public function __construct()
